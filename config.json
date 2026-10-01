@@ -1,0 +1,5 @@
+{
+"token": "[BOT_TOKEN_HERE]",
+  "id": "[CLIENT_ID_HERE]", 
+  "secret": "[CLIENT_SECRET_HERE]"
+}
