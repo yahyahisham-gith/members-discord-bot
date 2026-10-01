@@ -8,7 +8,7 @@ Features
 🛠 Lightweight: Minimal and focused on handling auths.
 Installation
 # Clone the repository
-git clone https://github.com/ParrotGames/free-members-discord-bot.git
+git clone https://github.com/yahyahisham-gith/members-discord-bot.gitt
 
 # Install dependencies
 pip install -r requirements.txt
@@ -33,4 +33,4 @@ Disclaimer
 free-members-discord-bot is intended solely for controlled member backup and restoration. Misuse for spamming or unauthorized member adding may violate Discord's Terms of Service.
 # Note
 Official Members Wave Discord Server https://discord.gg/memberswave or https://discord.gg/WzmSUvy6Cq (If you want the latest and fastest bot with complete server setup then u can buy from the discord server!
-@toolbee1 my dc username (:
+@toolbee1 parrot's username (:
