@@ -282,7 +282,7 @@ async def check_and_send_verify_message():
                         return
 
         embed = discord.Embed(
-            title="🛡️ SERVER VERIFICATION",
+            title="🛡️️ SERVER VERIFICATION",
             description="**Click the button below to start your verification and authentication process!**",
             color=0x57F287,
             timestamp=datetime.now()
