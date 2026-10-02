@@ -1,5 +1,10 @@
 {
-"token": "[BOT_TOKEN_HERE]",
-  "id": "[CLIENT_ID_HERE]", 
-  "secret": "[CLIENT_SECRET_HERE]"
+  "token": "YOUR_BOT_TOKEN_HERE",
+  "id": "YOUR_CLIENT_ID_HERE",
+  "secret": "YOUR_CLIENT_SECRET_HERE",
+  "main_server": 0,
+  "farm_channel": 0,
+  "add_bot_channel": 0,
+  "verify_channel": 0,
+  "confirm_channel": 0
 }

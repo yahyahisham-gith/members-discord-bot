@@ -11,10 +11,21 @@ from urllib.parse import urlencode
 print("🚀 STARTING BOT...")
 
 CONFIG_FILE = 'config.json'
+required_keys = ['token', 'id', 'secret', 'main_server', 'farm_channel', 'add_bot_channel', 'verify_channel', 'confirm_channel']
 
-# Make the script portable: auto-prompt for config if missing
-if not os.path.exists(CONFIG_FILE):
-    print("\n⚙️ Config file not found! Let's set up your bot parameters for portability:")
+# Make the script portable: auto-prompt if config is missing or missing any required keys
+config_valid = False
+if os.path.exists(CONFIG_FILE):
+    try:
+        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        if all(k in config for k in required_keys):
+            config_valid = True
+    except Exception:
+        config_valid = False
+
+if not config_valid:
+    print("\n⚙️ Config file not found or incomplete! Let's set up your bot parameters for portability:")
     try:
         config = {
             'token': input("Enter Bot Token: ").strip(),
